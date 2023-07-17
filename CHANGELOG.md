@@ -18,6 +18,8 @@ Main (unreleased)
 
 - Fix issue where `remote.http` incorrectly had a status of "Unknown" until the
   period specified by the polling frquency elapsed. (@rfratto)
+- Fix issue where config conversion for some empty structures would not apply
+  the default values correctly. (@thampiotr)
 
 v0.35.0-rc.0 (2023-07-13)
 -------------------------
